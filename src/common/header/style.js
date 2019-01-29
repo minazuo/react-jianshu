@@ -46,25 +46,22 @@ export const NavItem = styled.div`
   color: #c8c8c8;
 `;
 /*.slide 为html中的class名*/
-export const SearchWrapper = styled.div` 
-    float:left;
-    position:relative;
- 
-   
-    .iconfont{
-      position:absolute;
-      right:5px;
-      bottom:5px;
-      width:30px;
-      line-height:30px;
-      border-radius:15px;
-      text-align:center;
-      &.focused {
-       background:red;
-      }
+export const SearchWrapper = styled.div`
+  float: left;
+  position: relative;
+  .zoom {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    &.focused {
+      background: red;
     }
-   
-`
+  }
+`;
 
 export const NavSearch = styled.input.attrs({
   placeholder: "搜索"
@@ -86,58 +83,67 @@ export const NavSearch = styled.input.attrs({
     color: #c8c8c8;
   }
   &.focused {
-    width:240px;
+    width: 240px;
   }
-  &.slide-enter{
-     transition: all 200ms ease-out;
-  }
-  &.slide-enter-active{
-    width:240px;
-  }
-  &.slide-exit{
+  &.slide-enter {
     transition: all 200ms ease-out;
   }
-  &.slide-exit-active{
-    width:160px;
+  &.slide-enter-active {
+    width: 240px;
+  }
+  &.slide-exit {
+    transition: all 200ms ease-out;
+  }
+  &.slide-exit-active {
+    width: 160px;
   }
 `;
 
 export const SearchInfo = styled.div`
   position: absolute;
   left: 0;
-  top:56px;
-  width :240px;
-  padding:0 24px;
-  box-shadow: 0 0 8px rgba(0,0,0,.2);
+  top: 56px;
+  width: 240px;
+  padding: 0 24px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 `;
 
 export const SearchInfoTitle = styled.div`
-  margin-top:20px;
-  margin-bottom:15px;
-  line-height:20px;
-  font-size:14px;
-  color:#969696;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #969696;
 `;
 export const SearchInfoList = styled.div`
-  overflow:hidden;
+  overflow: hidden;
 `;
 
 export const SearchInfoItem = styled.a`
-  display:block;
-  float:left;
-  padding:0 5px;
-  line-height:20px;
+  display: block;
+  float: left;
+  padding: 0 5px;
+  line-height: 20px;
   border: 1px solid #ddd;
   border-radius: 3px;
-  font-size:12px;margin-right:5px;
-  margin-bottom:10px;
-  color:#969696;
+  font-size: 12px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  color: #969696;
 `;
 
-
 export const SearchInfoSwitch = styled.span`
- float:right;
- font-size:13px;
+  float: right;
+  font-size: 13px;
+  cursor: pointer;
+  .spin {
+    display: block;
+    float: left;
+    font-size: 12px;
+    margin-right: 2px;
+    transition: all 0.2s ease-in;
+    transfrom-orgin: center center;
+  }
 `;
 
 export const Addition = styled.div`
@@ -146,6 +152,7 @@ export const Addition = styled.div`
   top: 0;
   height: 56px;
 `;
+
 export const Button = styled.div`
   float: right;
   line-height: 38px;
