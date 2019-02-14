@@ -1,0 +1,67 @@
+{
+    "success":true,
+    "data":{
+           "topicList": [
+            {
+              "id": 1,
+              "title": "社会热点",
+              "imgUrl":
+                "//upload.jianshu.io/collections/images/283250/%E6%BC%AB%E7%94%BB%E4%B8%93%E9%A2%98.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+            },
+            {
+              "id": 2,
+              "title": "手绘",
+              "imgUrl":
+                "//upload.jianshu.io/collections/images/13/%E5%95%8A.png?imageMogr2/auto-orient/strip|imageView2/1/w/64/h/64"
+            }
+          ],
+          "articleList": [
+            {
+              "id": 1,
+              "title": "最近Android真的凉凉了？",
+              "imgUrl":
+                "//upload-images.jianshu.io/upload_images/15524861-ce9ca92037221db0?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240",
+              "desc":
+                "都说Android最近行情不好，很多人都遇到瓶颈或放弃或转行。其实这种情况15年16年也是如此，相对比之下，个人认为今年比去年好多了，Andro..."
+            },
+            {
+              "id": 2,
+              "title": "巧用内网穿透工具，解决本地服务器外网访问的问题",
+              "imgUrl":
+                "//upload-images.jianshu.io/upload_images/6130-2d718b1d0fc36e0a.png?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240",
+              "desc":
+                "在产品开发测试运营过程中，出于为了安全、隐私、费用、效率等方面考虑，一般都会搭建本地测试环境。搭建本地环境极大地方便了业务的开展，但也有一些弊端..."
+            },
+            {
+              "id": 3,
+              "title": "这9家小众淘宝店让你变身国风美少年，日常穿也超有品！",
+              "imgUrl":
+                "//upload-images.jianshu.io/upload_images/15160437-7144d6627e9503a0?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240",
+              "desc":
+                "Hello我的小可爱们，我是shell~ 最近朋友圈出了大事，很多姑娘们哭喊着“扛住了偶像练习生，还是没躲过《国风美少年》”，个个深陷得不可自拔..."
+            }
+          ],
+          "recommendList": [
+            {
+              "id": 1,
+              "imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-3-7123fd94750759acf7eca05b871e9d17.png"
+            },
+            {
+              "id": 2,
+              "imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-4-b70da70d679593510ac93a172dfbaeaa.png"
+            },
+            {
+              "id": 3,
+              "imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-7-1a0222c91694a1f38e610be4bf9669be.png"
+            },
+            {
+              "id": 4,
+              "imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-5-4ba25cf5041931a0ed2062828b4064cb.png"
+            },
+            {
+              "id": 5,
+              "imgUrl": "http://cdn2.jianshu.io/assets/web/banner-s-6-c4d6335bfd688f2ca1115b42b04c28a7.png"
+            }
+          ]
+    }
+}
